@@ -5,7 +5,7 @@ date: "2024-06-18"
 output: html_document
 ---
 
-My code and notes to accompany power point presentations in the `Slides/` directory.
+My code and notes to accompany power point presentations in the `slides/` directory.
 
 
 ```{r setup, include=FALSE}
