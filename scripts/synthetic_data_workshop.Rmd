@@ -1,0 +1,45 @@
+---
+title: "Synthetic data workshop"
+author: "Amelia Edmondson-Stait"
+date: "2024-06-18"
+output: html_document
+---
+
+My code and notes to accompany power point presentations in the `Slides/` directory.
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load in libraries:
+```{r}
+library(synthpop)
+
+```
+
+Load in data:
+```{r}
+load("../data/bike1.rdata") 
+```
+
+Take a look at the data
+```{r}
+head(bike1)
+```
+
+```{r}
+dim(bike1)
+```
+
+```{r}
+colnames(bike1)
+```
+
+
+Version details of R and synthpop package:
+```{r}
+sessionInfo()
+```
+
+
